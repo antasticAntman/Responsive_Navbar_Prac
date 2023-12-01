@@ -27,10 +27,21 @@
 .App-link {
   color: #61dafb;
 }
-.primary-navigation{
-  border:1px solid red;
+
+.primary-header{
+  /* border:1px solid red; */
   display:flex;
-  gap:2%;
+}
+
+.primary-navigation{
+  display: flex;
+  gap:10%;
+}
+
+.Cat-logo {
+  width:75px;
+  height:75px;
+  margin:5%;
 }
 
 @keyframes App-logo-spin {
