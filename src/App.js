@@ -19,6 +19,11 @@ function App() {
             <span aria-hidden='true'>02</span>Crew
           </a>
         </li>
+        <li>
+          <a class='ff-sans-cond uppercase text-white letter-spacing-2' href='#'>
+            <span aria-hidden='true'>03</span>Technology
+          </a>
+        </li>
       </ul>
     </nav>
   );
