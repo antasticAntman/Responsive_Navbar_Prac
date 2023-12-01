@@ -1,11 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Header</h1>
-    </div>
+    <nav>
+      <ul id='primary-navigation' class='primary-navigation flex'>
+        <li class='active'>
+          <a class='ff-sans-cond uppercase text-white letter-spacing-2' href='#'>
+            <span aria-hidden='true'>00</span>Home
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 }
 
